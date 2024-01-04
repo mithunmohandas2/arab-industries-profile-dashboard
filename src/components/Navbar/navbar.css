@@ -1,0 +1,36 @@
+.leftNavbar {
+    max-width: 340px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.leftBar {
+    box-shadow: 5px 5px 10px rgba(0, 0, 17, 0.082);
+}
+
+#profilePic {
+    width: 50px;
+}
+
+.fw-bolder {
+    font-weight: 900;
+}
+
+.selectedTab {
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgb(143, 198, 247);
+    width: 100%;
+}
+
+.logoutTab {
+    background-color: rgb(213, 244, 253);
+}
+
+.email {
+    font-size: smaller;
+}
+
+@media screen and (min-width: 576px) {
+    #profilePic {
+        width: 80px;
+    }
+}

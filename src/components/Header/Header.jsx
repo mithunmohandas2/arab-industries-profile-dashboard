@@ -2,7 +2,7 @@ import './header.css'
 
 function Header() {
     return (
-        <div className="p-0 navbar navbar-expand-lg navbar-light bg-transparent">
+        <div className="p-0 navbar navbar-expand-lg navbar-light bg-transparent shadow-sm">
             <div className="container-fluid p-0">
                 <div className='clip-path'>
                     <img src="/logo.png" className='logo' alt="Logo" />

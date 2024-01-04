@@ -7,7 +7,7 @@ function Navbar() {
 
                 <div className="text-center shadow-sm ">
                     <div data-bs-toggle="collapse" className="nav-link px-0 align-middle leftBar">
-                        <img className="my-4" id="profilePic" src="https://leadershipcircle.com/wp-content/uploads/2022/07/Tyson-Andrus.png" alt="profile pic" /> <br />
+                        <img className="my-4 zoomEffect" id="profilePic" src="https://leadershipcircle.com/wp-content/uploads/2022/07/Tyson-Andrus.png" alt="profile pic" /> <br />
                         <h6 className="d-none d-sm-inline text-dark fw-bold">Ram Mohan  <span className="text-primary">{">"}</span> </h6> <br />
                         <p className="d-none d-sm-inline text-dark"> <span className="email">rammohan2@gmail.com</span></p>
                     </div>
@@ -15,7 +15,7 @@ function Navbar() {
 
                 <div className="d-flex flex-column align-items-center align-items-sm-start pe-3 mt-3 min-vh-100 leftBar">
                     <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start " id="menu">
-                        <li className="selectedTab pe-3 my-2">
+                        <li className="selectedTab pe-3 my-2 zoomEffect">
                             <div data-bs-toggle="collapse" className="nav-link px-0 align-middle">
                                 <i className="fs-4 mx-2">
                                     <img src="/dashboard.png" alt="dashboard" />
@@ -24,7 +24,7 @@ function Navbar() {
                             </div>
                         </li>
 
-                        <li className="selectedTab bg-white border pe-3 my-2">
+                        <li className="non-selectedTab border pe-3 my-2 zoomEffect">
                             <div data-bs-toggle="collapse" className="nav-link px-0 align-middle">
                                 <i className="fs-4 mx-2">
                                     <img src="/perks.png" alt="perks" />
@@ -33,7 +33,7 @@ function Navbar() {
                             </div>
                         </li>
 
-                        <li className="selectedTab bg-white border pe-3 my-2">
+                        <li className="non-selectedTab border pe-3 my-2 zoomEffect">
                             <div data-bs-toggle="collapse" className="nav-link px-0 align-middle">
                                 <i className="fs-4 mx-2">
                                     <img src="/Addons.png" alt="Addons" />
@@ -42,7 +42,7 @@ function Navbar() {
                             </div>
                         </li>
 
-                        <li className="selectedTab bg-white border pe-3 my-2">
+                        <li className="non-selectedTab border pe-3 my-2 zoomEffect">
                             <div data-bs-toggle="collapse" className="nav-link px-0 align-middle">
                                 <i className="fs-4 mx-2">
                                     <img src="/FAQ.png" alt="FAQ" />
@@ -51,7 +51,7 @@ function Navbar() {
                             </div>
                         </li>
 
-                        <li className="selectedTab bg-white border pe-3 my-2">
+                        <li className="non-selectedTab border pe-3 my-2 zoomEffect">
                             <div data-bs-toggle="collapse" className="nav-link px-0 align-middle">
                                 <i className="fs-4 mx-2">
                                     <img src="/support.png" alt="support" />

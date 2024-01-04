@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #e5f1fa;
+    background-color: #E3F1FE;
     margin: 0;
 }
 
@@ -15,3 +15,4 @@ body {
 .zoomEffect:hover{
     transform:scale(1.05);
 }
+

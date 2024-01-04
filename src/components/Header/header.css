@@ -1,0 +1,43 @@
+.logo {
+    width: 4rem;
+}
+
+button {
+    img {
+        height: 2em;
+    }
+}
+
+.btn{
+background-color: white;
+}
+
+.dropdown{
+img{
+    padding: 10px 0px;
+}
+}
+
+.clip-path{
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+    width: 300px;
+    height:130px;
+    padding: 20px 0px 0px 50px
+}
+
+#company-name{
+    font-size: small;
+    font-weight: 900;
+}
+@media screen and (max-width: 992px) {
+    #company-name{
+        display: none
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .end-0{
+        margin-right: 50px;
+    }
+}

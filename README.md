@@ -4,8 +4,6 @@ This repository contains a React-based profile dashboard developed as part of a 
 # Overview
 The Profile Dashboard is designed to offer a visually appealing and intuitive interface for accessing, managing, and updating employee profiles. Leveraging React, this project emphasizes modularity, responsiveness, and ease of use. Users can expect a seamless experience while navigating through various profile sections and performing necessary actions.
 
-![Demo image](/public/demo.jpg)
-
 Key Features : 
 Responsive Design: Ensures a consistent experience across devices and screen sizes.
 

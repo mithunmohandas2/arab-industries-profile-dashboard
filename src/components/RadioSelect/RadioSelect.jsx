@@ -7,14 +7,14 @@ function RadioSelect() {
         <>
             <div className="config-select">
                 <div className="fieldset">
-                    <input type="radio" value="item_1" id="item_1" name="config" className="trigger" data-target="#item_1_target" checked={monthlyStatus} onClick={() => setMonthlyStatus(true)} />
+                    <input type="radio" value="item_1" id="item_1" name="config" className="trigger" data-target="#item_1_target" checked={monthlyStatus} onClick={() => setMonthlyStatus(true)} readOnly />
                     <label htmlFor="item_1"><span>Monthly</span></label>
 
-                    <input type="radio" value="item_2" id="item_2" name="config" className="trigger" data-target="#item_2_target" checked={!monthlyStatus} />
+                    <input type="radio" value="item_2" id="item_2" name="config" className="trigger" data-target="#item_2_target" checked={!monthlyStatus} readOnly />
                     <label htmlFor="item_2" onClick={() => setMonthlyStatus(false)}><span>Annually</span> </label>
                     <span className="switch"></span>
                 </div>
-                    <span id="superScript">-10%</span>
+                <span id="superScript">-10%</span>
             </div>
         </>
     )

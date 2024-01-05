@@ -1,3 +1,15 @@
-#mainContent{
+#mainContent {
     z-index: 1;
+}
+
+#conditionsText {
+    color: #2981C8;
+    font-size: 0.8em;
+    word-break: normal;
+}
+
+@media screen and (max-width: 768px) {
+    #conditionsText {
+        text-align: center;
+    }
 }

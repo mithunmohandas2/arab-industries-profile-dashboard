@@ -8,39 +8,40 @@ button {
     }
 }
 
-.btn{
-background-color: white;
+.btn {
+    background-color: white;
 }
 
-.dropdown{
-img{
-    padding: 10px 0px;
-}
+.dropdown {
+    img {
+        padding: 10px 0px;
+    }
 }
 
-.clip-path{
+.clip-path {
     background-color: white;
     clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
     width: 40%;
     max-width: 340px;
-    height:130px;
+    height: 130px;
     padding: 20px 0px 0px 50px;
     box-shadow: 0 0 10px rgba(39, 39, 39, 0.425);
     /* margin-bottom: 0.5px; */
 }
 
-#company-name{
+#company-name {
     font-size: small;
     font-weight: 900;
 }
+
 @media screen and (max-width: 992px) {
-    #company-name{
+    #company-name {
         display: none
     }
 }
 
 @media screen and (min-width: 992px) {
-    .end-0{
+    .end-0 {
         margin-right: 50px;
     }
 }

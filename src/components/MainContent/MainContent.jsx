@@ -1,3 +1,4 @@
+import LandscapeCards from "../LandscapeCards/LandscapeCards"
 import PortraitCards from "../PortraitCards/PortraitCards"
 import RadioSelect from "../RadioSelect/RadioSelect"
 import "./mainContent.css"
@@ -12,11 +13,19 @@ function MainContent() {
             </div>
 
             <div className="row mt-5">
-            <PortraitCards Basic />
-            <PortraitCards Standard />
-            <PortraitCards Premium />
+                <PortraitCards Basic />
+                <PortraitCards Standard />
+                <PortraitCards Premium />
             </div>
 
+            <div className="row mt-5">
+                <LandscapeCards Starter />
+                <LandscapeCards Enterprise />
+            </div>
+
+            <div className="text-end">
+                <p id="conditionsText">*some unique features are provided as add-ons with individual plans for each features</p>
+            </div>
 
         </div>
     )

@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+    .seperator {
+        display: none;
+    }
+}
+
+.featurePoints {
+    font-size: 11px;
+
+    img {
+        margin: 0px 5px;
+    }
+}
+
+.highlight {
+    padding: 4px 8px;
+    font-size: 10px;
+    border-radius: 8px;
+    border: none;
+    margin: 9px 0px 10px 0px;
+}

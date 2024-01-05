@@ -1,4 +1,4 @@
-#superScript{
+#superScript {
     font-size: x-small;
     font-weight: bolder;
     color: rgb(3, 190, 3);
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 371px) {
     .config-select {
-       display: none;
+        display: none;
     }
 }
 
